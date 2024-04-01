@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    background-color: #081B29;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+#home nav a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 550;
+    color: white;
+    margin-right: 50px;
+}
+#home .active{
+    color: #00ABB0;
+}
+#home nav a:hover{
+    color: #00ABB0;
+    transition: all ease .5s;
+}
+
+span{
+    color: #00ABB0;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    padding: 0px 10%;
+}
+.leftDescription{
+    width: 600px;
+}
+.description h1{
+    font-size: 30px;
+}
+.description h3{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+footer{
+    background-color: #00ABB0;
+    padding: 3% 7%;
+    color: #081B29;
+}
+footer .div{
+    display: flex;
+    justify-content: space-around;
+}
+.div a{
+    text-decoration: none;
+    color: #081B29;
+    font-size: 20px;
+}
+.move, .join{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.move a:hover{
+    text-decoration: underline;
+}
+
+#about{
+    padding: 3% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 10%;
+}
+.aboutLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+    border-radius: 5%;
+    height: 300px;
+    padding: 10px 30px;
+    background-color: #00ABB0;
+}
+#about a.active{
+    background-color: #081B29;
+    color: #00ABB0;
+}
+#about a{
+    text-decoration: none;
+    color: #081B29;
+}
+.aboutLeft div a{
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+.aboutLeft div a:hover{
+    background-color: #081B29;
+    color: #00ABB0 !important;
+    border: 1px solid #00ABB0;
+    cursor: pointer;
+}
+.aboutRight{
+    width: 80%;
+    margin-left: 5%;
+    background-color: #00ABB0;
+    height: 400px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px 50px;
+    display: grid;
+    place-content: center;
+    color: #081B29;
+    position: relative;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    padding: 0px 50px;
+}
+img{
+    width: 400px;
+}
+.text{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 150px;
+}
+.text textarea{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.text textarea:hover{
+    outline-color: #081B29;
+}
+.text input{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}

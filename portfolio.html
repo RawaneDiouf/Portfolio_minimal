@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="home">
+        <h2>Portfolio</h2>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="description">
+        <div class="leftDescription">
+            <h1>Bonjour, je suis <span>Name</span></h1>
+            <h3>SRT Technicien</h3>
+            <p>
+                Etudiant en Licence 3 Systèmes Réseaux Télécoms, 
+                passionné par les domaines des systèmes, des réseaux et des télécommunications, je m'investis pleinement dans mes études pour acquérir les connaissances et les compétences nécessaires pour contribuer au développement et à la gestion des infrastructures de communication modernes. 
+                Toujours curieux et avide d'apprendre, je suis motivé par le désir de comprendre en profondeur les technologies qui sous-tendent les réseaux et les systèmes de communication, et de contribuer à leur amélioration et à leur sécurisation. 
+                En dehors de mes études, j'aime m'impliquer dans des projets et des activités qui me permettent d'élargir mes horizons et de développer mes compétences, que ce soit dans le domaine académique, professionnel ou personnel.
+            </p>
+        </div>
+        <div class="rightDescription">
+            <img src="pic.png" alt="Picture">
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="aboutLeft">
+            <div class="option">
+                <a class="active" href="about.html" target="sort">About</a>
+            </div>
+            <div class="option">
+                <a href="projet.html" target="sort">Projects</a>
+            </div>
+            <div class="option">
+                <a href="parcours.html" target="sort">Cursus Pro</a>
+            </div>
+        </div>
+        <div class="aboutRight">
+            <iframe src="about.html" name="sort"></iframe>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <h1>Contact</h1><br>
+        <div class="div">
+            <div class="text">
+                <input type="email" name="email" placeholder="Your email">
+                <textarea name="text" cols="30" rows="10" placeholder="A comment ?">Hello 😉</textarea>
+            </div> 
+            <div class="move">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="join">
+                <a href="mailto:papadiabeldaffe@esp.sn">Email : email@gmail.com</a>
+                <a href="tel:+221708216933">Téléphone : 777777777</a>
+                <a>Adresse : Town - Country</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
